@@ -63,4 +63,7 @@ SELECT name FROM people;
 UPDATE people SET name = 'Jesus	Perez' WHERE name = 'Jezuz	Perez';
 
 -- 4
-SELECT name FROM people WHERE name = 'Jesus	Perez'
+SELECT name FROM people WHERE name = 'Jesus	Perez';
+
+-- 5
+DELETE FROM movies WHERE title = 'Batman Begins';
