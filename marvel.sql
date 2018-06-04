@@ -73,3 +73,6 @@ INSERT INTO people (name) VALUES ('Tony	Gonzalvez');
 
 -- 7
 DELETE FROM people WHERE name = 'Emily Milne';
+
+-- 8
+INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
