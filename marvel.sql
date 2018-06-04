@@ -61,3 +61,6 @@ SELECT name FROM people;
 
 -- 3
 UPDATE people SET name = 'Jesus	Perez' WHERE name = 'Jezuz	Perez';
+
+-- 4
+SELECT name FROM people WHERE name = 'Jesus	Perez'
