@@ -70,3 +70,6 @@ DELETE FROM movies WHERE title = 'Batman Begins';
 
 -- 6
 INSERT INTO people (name) VALUES ('Tony	Gonzalvez');
+
+-- 7
+DELETE FROM people WHERE name = 'Emily Milne';
