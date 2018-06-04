@@ -76,3 +76,10 @@ DELETE FROM people WHERE name = 'Emily Milne';
 
 -- 8
 INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
+
+-- 9
+SELECT * FROM movies WHERE title = 'Guardians of the Galaxy';
+
+UPDATE movies SET show_time = '20:05' WHERE title = 'Guardians of the Galaxy 2';
+
+SELECT * FROM movies;
