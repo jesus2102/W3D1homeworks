@@ -67,3 +67,6 @@ SELECT name FROM people WHERE name = 'Jesus	Perez';
 
 -- 5
 DELETE FROM movies WHERE title = 'Batman Begins';
+
+-- 6
+INSERT INTO people (name) VALUES ('Tony	Gonzalvez');
