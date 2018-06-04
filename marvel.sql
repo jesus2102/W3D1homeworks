@@ -82,4 +82,7 @@ SELECT * FROM movies WHERE title = 'Guardians of the Galaxy';
 
 UPDATE movies SET show_time = '20:05' WHERE title = 'Guardians of the Galaxy 2';
 
+-- EXTENSION
+DELETE FROM movies WHERE title in ('Thor', 'Iron Man');
+
 SELECT * FROM movies;
